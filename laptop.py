@@ -158,5 +158,3 @@ if st.button('Predict'):
     st.success(f'Your predicted price of the laptop is {prediction[0]}')
 
 
-if __name__=='__main__':
-    app.run( host= '0.0.0.0',Port="3307")
